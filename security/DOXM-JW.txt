@@ -46,7 +46,7 @@ ND->OT: RSP 2.04
 note over OT, ND
 Onboarding tool posts the device owner ID.
 end note
-OT->ND: POST /oic/sec/doxm[{..., "devowner":"B0B0XXXX-...",...}]
+OT->ND: POST /oic/sec/doxm[{..., "devowneruuid":"B0B0XXXX-...",...}]
 ND->OT: RSP 2.04
 
 note over OT, ND
